@@ -1,0 +1,104 @@
+/* ===================== */
+/* MAIN */
+/* ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    color: white;
+
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+/* ===================== */
+/* PAGE CONTAINER */
+/* ===================== */
+.page__container {
+    height: 100vh;
+
+    user-select: none;
+    text-align: center;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+/* ===================== */
+/* PAGE TITLES */
+/* ===================== */
+.page__titles h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.page__titles h3 {
+    font-size: 1.25rem;
+}
+
+/* ===================== */
+/* SOCIAL BUTTONS */
+/* ===================== */
+.socials__group {
+    height: 4rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__group a {
+    color: white;
+    font-size: 2.35rem;
+    margin-right: 2rem;
+}
+
+.fab {
+    transition: all 0.3s;
+}
+
+.fa-github:hover {
+    color: grey;
+}
+
+.fa-linkedin-in:hover {
+    color: rgb(65, 161, 225);
+}
+
+/* ===================== */
+/* PAGE COUNTDOWN */
+/* ===================== */
+.page__countdown {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.countdown__container {
+    margin-right: 2rem;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countdown__container span {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.countdown__timer {
+    font-size: 3rem;
+    font-weight: 600;
+    border-bottom: 2px solid wheat;
+}
